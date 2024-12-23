@@ -29,7 +29,7 @@ export function Hero() {
             <div className="bg-[#F5F5F7] p-4 rounded-2xl shadow-lg transform transition-transform hover:scale-105">
               <Globe2 className="w-6 h-6 text-[#0071E3] mx-auto mb-2" />
               <p className="text-sm text-[#1D1D1F] font-normal">
-                3 Countries Worked In
+                2 Countries Worked In
               </p>
             </div>
             <div className="bg-[#F5F5F7] p-4 rounded-2xl shadow-lg transform transition-transform hover:scale-105">
