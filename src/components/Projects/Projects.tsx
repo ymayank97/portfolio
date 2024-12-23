@@ -35,15 +35,19 @@ const projects = [
 
 export function Projects() {
   return (
-    <section id="projects" className="py-16 bg-[#F5F5F7]">
+    <section
+      id="projects"
+      className="py-16 bg-[#F5F5F7]"
+      style={{ marginTop: "0rem" }}
+    >
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
-          <h2 className="text-3xl font-medium text-[#1D1D1F] mb-3">
+          <h2 className="text-3xl font-semibold text-[#1D1D1F] mb-3">
             Featured Projects
           </h2>
           <div className="w-12 h-0.5 bg-[#0071E3] mx-auto"></div>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
           {projects.map((project) => (
             <ProjectCard key={project.title} {...project} />
           ))}

@@ -31,7 +31,7 @@ export function Experience() {
     <section id="experience" className="py-12 bg-[#FBFBFD]">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-10">
-          <h2 className="text-3xl font-medium text-[#1D1D1F] mb-3">
+          <h2 className="text-3xl font-semibold text-[#1D1D1F] mb-3">
             Professional Experience
           </h2>
           <div className="w-12 h-0.5 bg-[#0071E3] mx-auto"></div>

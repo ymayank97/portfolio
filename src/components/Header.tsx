@@ -7,10 +7,10 @@ export function Header() {
       <nav className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-14">
           <div>
-            <span className="text-lg font-medium text-[#1D1D1F]">
+            <span className="text-lg font-semibold text-[#1D1D1F]">
               Mayank Yadav
             </span>
-            <span className="ml-2 text-sm text-[#86868B]">
+            <span className="ml-2 text-sm text-[#1D1D1F]">
               Software Engineer
             </span>
           </div>

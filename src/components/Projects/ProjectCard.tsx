@@ -22,13 +22,13 @@ export function ProjectCard({
     <div className="bg-[#FBFBFD] rounded-2xl overflow-hidden shadow-sm transition-transform hover:scale-[1.02]">
       <img src={imageUrl} alt={title} className="w-full h-48 object-cover" />
       <div className="p-6">
-        <h3 className="text-lg font-medium text-[#1D1D1F] mb-2">{title}</h3>
-        <p className="text-[#86868B] text-sm font-light mb-4">{description}</p>
+        <h3 className="text-lg font-semibold text-[#1D1D1F] mb-2">{title}</h3>
+        <p className="text-[#1D1D1F] text-sm font-normal mb-4">{description}</p>
         <div className="flex flex-wrap gap-2 mb-4">
           {technologies.map((tech) => (
             <span
               key={tech}
-              className="px-3 py-1 bg-[#F5F5F7] text-sm text-[#1D1D1F] rounded-lg font-light"
+              className="px-3 py-1 bg-[#F5F5F7] text-sm text-[#1D1D1F] rounded-lg font-normal"
             >
               {tech}
             </span>
