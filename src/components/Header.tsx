@@ -48,7 +48,7 @@ export function Header() {
           </div>
           <div className="flex items-center space-x-4">
             <a
-              href="https://github.com"
+              href="https://github.com/ymayank97"
               target="_blank"
               rel="noopener noreferrer"
               className="text-[#1D1D1F] hover:text-[#0071E3] transition-colors"
@@ -56,7 +56,7 @@ export function Header() {
               <Github className="w-4 h-4" />
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://linkedin.com/in/mayank-yadav97"
               target="_blank"
               rel="noopener noreferrer"
               className="text-[#1D1D1F] hover:text-[#0071E3] transition-colors"
@@ -64,7 +64,8 @@ export function Header() {
               <Linkedin className="w-4 h-4" />
             </a>
             <a
-              href="/resume.pdf"
+              href="/static/MayankYadav.pdf"
+              download="MayankYadav.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="text-[#1D1D1F] hover:text-[#0071E3] transition-colors"

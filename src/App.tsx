@@ -11,12 +11,12 @@ function App() {
   return (
     <div className="min-h-screen bg-[#FBFBFD]">
       <Header />
-      <main className="space-y-8 pt-16">
+      <main className=" pt-16">
         <Hero />
         <About />
-        <Skills />
-        <Projects />
         <Experience />
+        <Projects />
+        <Skills />
         <Contact />
       </main>
     </div>

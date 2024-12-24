@@ -43,8 +43,8 @@ export function Hero() {
           <p className="text-lg text-[#1D1D1F] mb-8 leading-relaxed font-normal max-w-3xl mx-auto animate-fade-in delay-2s">
             From building high-frequency trading systems at Goldman Sachs to
             winning hackathons at Harvard, I blend technical expertise with
-            creative problem-solving. Currently exploring the intersection of AI
-            and financial technology in Boston.
+            creative problem-solving. Currently exploring the intersection of
+            AI, Web3 and financial technology in Dallas, US.
           </p>
 
           <div className="flex flex-wrap gap-2 justify-center mb-8">

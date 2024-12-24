@@ -1,5 +1,6 @@
 import React from "react";
 import { Award, Code, Database, Cloud } from "lucide-react";
+import headshot from "/static/austin2.jpg";
 
 export function About() {
   return (
@@ -11,12 +12,15 @@ export function About() {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
-          <div className="max-w-md mx-auto">
-            <img
-              src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=400&q=80"
-              alt="Professional headshot"
-              className="rounded-2xl shadow-lg w-full aspect-square object-cover"
-            />
+          <div className="max-w-md mx-auto transform transition duration-500 hover:scale-105 hover:shadow-2xl hover:rotate-2">
+            <div className="relative rounded-2xl overflow-hidden">
+              <div className="absolute inset-0 bg-gradient-to-r from-[#0071E3] to-[#00C6FF] opacity-75 blur-lg"></div>
+              <img
+                src={headshot}
+                alt="headshot"
+                className="relative rounded-2xl shadow-lg w-full aspect-square object-cover"
+              />
+            </div>
           </div>
 
           <div className="space-y-6">

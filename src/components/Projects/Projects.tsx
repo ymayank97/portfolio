@@ -1,35 +1,34 @@
 import React from "react";
 import { ProjectCard } from "./ProjectCard";
+import project1 from "/static/js.png";
+import project2 from "/static/doctor.png";
+import project3 from "/static/search.png";
 
 const projects = [
   {
     title: "AWS Web Application Deployment",
     description:
       "Scalable web application with microservices architecture deployed on AWS using containerization and CI/CD pipelines.",
-    technologies: ["AWS", "Docker", "Node.js", "React"],
-    githubUrl: "https://github.com",
-    liveUrl: "https://aws-webapp.demo",
-    imageUrl:
-      "https://images.unsplash.com/photo-1667372393119-3d4c48d07fc9?auto=format&fit=crop&w=800&q=80",
+    technologies: ["AWS", "Python", "Pulumi", "Flask"],
+    githubUrl: "https://github.com/ymayank97/EduGenix",
+    imageUrl: project1,
   },
   {
     title: "Heart Failure Prediction App",
     description:
       "Machine learning application that predicts heart failure risk using patient data and advanced ML algorithms.",
-    technologies: ["Python", "TensorFlow", "Flask", "React"],
-    githubUrl: "https://github.com",
-    imageUrl:
-      "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=800&q=80",
+    technologies: ["Python", "TensorFlow", "Flask", "Keras"],
+    githubUrl: "https://github.com/ymayank97/Flask-Dashboard-for-heart-Disease",
+    imageUrl: project2,
   },
   {
     title: "Semantic Search Engine",
     description:
       "Advanced search engine using NLP and vector embeddings to understand user intent and provide relevant results.",
-    technologies: ["Python", "ElasticSearch", "BERT", "FastAPI"],
-    githubUrl: "https://github.com",
-    liveUrl: "https://semantic-search.demo",
-    imageUrl:
-      "https://images.unsplash.com/photo-1555952494-efd681c7e3f9?auto=format&fit=crop&w=800&q=80",
+    technologies: ["Python", "ElasticSearch", "BERT"],
+    githubUrl:
+      "https://github.com/ymayank97/CORD-19-Search-Engine-Using-Transformers",
+    imageUrl: project3,
   },
 ];
 
