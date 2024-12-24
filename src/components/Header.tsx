@@ -1,5 +1,5 @@
 import React from "react";
-import { Github, Linkedin, FileText, Mail } from "lucide-react";
+import { Github, Linkedin, FileText } from "lucide-react";
 
 export function Header() {
   return (
