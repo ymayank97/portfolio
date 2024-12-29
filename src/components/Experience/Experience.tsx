@@ -39,7 +39,7 @@ const experiences = [
   {
     company: "Agbe Technologies",
     role: "Software Development Intern",
-    period: "2018 – 2018",
+    period: "2018 - 2018",
     description: [
       "Managed YetConnect, an enterprise communication project, and added User Signup with image upload and online attendance functionality, leading to an increase of 10% in client reach.",
       "Migrated application from PHP5 to PHP7, decreased app load time by about 30%, and supported UI team.",

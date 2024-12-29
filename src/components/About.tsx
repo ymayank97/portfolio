@@ -1,5 +1,5 @@
 import React from "react";
-import { Award, Code, Database, Cloud } from "lucide-react";
+import { Award, Code, Database, Cloud, Bot } from "lucide-react";
 import headshot from "/static/austin2.jpg";
 
 export function About() {
@@ -25,9 +25,12 @@ export function About() {
 
           <div className="space-y-6">
             <p className="text-[#1D1D1F] text-lg font-light leading-relaxed">
-              With a Master's in Information Systems and extensive experience in
-              software engineering, I specialize in building scalable
-              applications and implementing innovative solutions.
+              With a <b>Master's in Information Systems</b> from Northeastern
+              University and a<b> B.Tech in Computer Science</b>, I have honed
+              my skills in AI and Machine Learning. My journey includes building
+              systems at Goldman Sachs, earning an <b>AWS ML Nanodegree</b>, and
+              winning a hackathon at Harvard. Currently, I am exploring AI,
+              Web3, and financial technology in Dallas, US.
             </p>
 
             <div className="grid grid-cols-2 gap-3">
@@ -44,9 +47,9 @@ export function About() {
                 </h3>
               </div>
               <div className="p-4 bg-[#F5F5F7] rounded-2xl">
-                <Database className="w-6 h-6 text-[#0071E3] mb-2" />
+                <Bot className="w-6 h-6 text-[#0071E3] mb-2" />
                 <h3 className="text-[#1D1D1F] font-medium text-sm">
-                  Data Engineering
+                  AI & Machine Learning
                 </h3>
               </div>
               <div className="p-4 bg-[#F5F5F7] rounded-2xl">

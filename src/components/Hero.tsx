@@ -49,12 +49,10 @@ export function Hero() {
           </div>
 
           <p className="text-lg text-[#1D1D1F] mb-8 leading-relaxed font-normal max-w-3xl mx-auto animate-fade-in delay-2s">
-            With a Master's in Information Systems from Northeastern University
-            and a B.Tech in Computer Science, I have honed my skills in AI and
-            Machine Learning. My journey includes building systems at Goldman
-            Sachs, earning an AWS ML Nanodegree, and winning a hackathon at
-            Harvard. Currently, I am exploring AI, Web3, and financial
-            technology in Dallas, US.
+            Developer adept at building and maintaining RESTful APIs and
+            microservices, for 3+ years, with a strong foundation in cloud
+            architecture and machine learning. Currently exploring AI, Web3, and
+            financial technology in Dallas, US.
           </p>
 
           <div className="flex flex-wrap gap-2 justify-center mb-8">

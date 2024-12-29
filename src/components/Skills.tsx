@@ -3,10 +3,15 @@ import React from "react";
 const skills = {
   "Programming Languages": ["Python", "Java", "SQL", "JavaScript/TypeScript"],
   "Cloud & DevOps": ["AWS", "Docker", "Kubernetes", "CI/CD"],
-  Databases: ["PostgreSQL", "MongoDB", "Redis", "Elasticsearch"],
+  Databases: ["PostgreSQL", "SQL", "DynamoDB", "Elasticsearch"],
   "Machine Learning": ["TensorFlow", "PyTorch", "scikit-learn", "NLP"],
-  Frontend: ["React", "Next.js", "Tailwind CSS", "Redux"],
-  Backend: ["Node.js", "Express", "Django", "Spring Boot"],
+  "AWS Cloud Services": [
+    "CloudWatch",
+    "Lambda Function",
+    "ECS",
+    "Step Function",
+  ],
+  Backend: ["Flask", "Node.js", "Django", "Spring Boot"],
 };
 
 export function Skills() {
