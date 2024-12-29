@@ -1,5 +1,13 @@
 import React from "react";
-import { ArrowRight, Brain, Code2, Coffee, Globe2 } from "lucide-react";
+import {
+  ArrowRight,
+  Award,
+  BookIcon,
+  Brain,
+  Code2,
+  Coffee,
+  Globe2,
+} from "lucide-react";
 
 export function Hero() {
   return (
@@ -17,6 +25,18 @@ export function Hero() {
             <div className="bg-[#F5F5F7] p-4 rounded-2xl shadow-lg transform transition-transform hover:scale-105">
               <Brain className="w-6 h-6 text-[#0071E3] mx-auto mb-2" />
               <p className="text-sm text-[#1D1D1F] font-normal">
+                Master's in Information Systems at Northeastern University
+              </p>
+            </div>
+            <div className="bg-[#F5F5F7] p-4 rounded-2xl shadow-lg transform transition-transform hover:scale-105">
+              <BookIcon className="w-6 h-6 text-[#0071E3] mx-auto mb-2" />
+              <p className="text-sm text-[#1D1D1F] font-normal">
+                B.Tech in Computer Science
+              </p>
+            </div>
+            <div className="bg-[#F5F5F7] p-4 rounded-2xl shadow-lg transform transition-transform hover:scale-105">
+              <Award className="w-6 h-6 text-[#0071E3] mx-auto mb-2" />
+              <p className="text-sm text-[#1D1D1F] font-normal">
                 AWS ML Nanodegree Graduate
               </p>
             </div>
@@ -26,24 +46,15 @@ export function Hero() {
                 Harvard Hackathon Winner
               </p>
             </div>
-            <div className="bg-[#F5F5F7] p-4 rounded-2xl shadow-lg transform transition-transform hover:scale-105">
-              <Globe2 className="w-6 h-6 text-[#0071E3] mx-auto mb-2" />
-              <p className="text-sm text-[#1D1D1F] font-normal">
-                2 Countries Worked In
-              </p>
-            </div>
-            <div className="bg-[#F5F5F7] p-4 rounded-2xl shadow-lg transform transition-transform hover:scale-105">
-              <Coffee className="w-6 h-6 text-[#0071E3] mx-auto mb-2" />
-              <p className="text-sm text-[#1D1D1F] font-normal">
-                Coffee & Code Enthusiast
-              </p>
-            </div>
           </div>
 
           <p className="text-lg text-[#1D1D1F] mb-8 leading-relaxed font-normal max-w-3xl mx-auto animate-fade-in delay-2s">
-            From building systems at Goldman Sachs to winning hackathons at
-            Harvard. Currently exploring AI, Web3, and financial technology in
-            Dallas, US.
+            With a Master's in Information Systems from Northeastern University
+            and a B.Tech in Computer Science, I have honed my skills in AI and
+            Machine Learning. My journey includes building systems at Goldman
+            Sachs, earning an AWS ML Nanodegree, and winning a hackathon at
+            Harvard. Currently, I am exploring AI, Web3, and financial
+            technology in Dallas, US.
           </p>
 
           <div className="flex flex-wrap gap-2 justify-center mb-8">

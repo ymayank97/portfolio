@@ -64,7 +64,7 @@ export function Header() {
               <Linkedin className="w-4 h-4" />
             </a>
             <a
-              href="/static/MayankYadav.pdf"
+              href="https://drive.google.com/file/d/1hD2K1kC2rWSdlZrypGN3RBsCuveHWIRh/view?usp=sharing"
               download="MayankYadav.pdf"
               target="_blank"
               rel="noopener noreferrer"
