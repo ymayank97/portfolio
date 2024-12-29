@@ -22,26 +22,26 @@ export function Hero() {
             <span className="text-[#0071E3]">AI & Machine Learning</span>
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
-            <div className="bg-[#F5F5F7] p-4 rounded-2xl shadow-lg transform transition-transform hover:scale-105">
-              <Brain className="w-6 h-6 text-[#0071E3] mx-auto mb-2" />
+            <div className="bg-[#F5F5F7] p-6 rounded-2xl shadow-lg transform transition-transform hover:scale-105">
+              <Brain className="w-4 h-4 text-[#0071E3] mx-auto mb-2" />
               <p className="text-sm text-[#1D1D1F] font-normal">
                 Master's in Information Systems at Northeastern University
               </p>
             </div>
-            <div className="bg-[#F5F5F7] p-4 rounded-2xl shadow-lg transform transition-transform hover:scale-105">
-              <BookIcon className="w-6 h-6 text-[#0071E3] mx-auto mb-2" />
+            <div className="bg-[#F5F5F7] p-6 rounded-2xl shadow-lg transform transition-transform hover:scale-105">
+              <BookIcon className="w-4 h-4 text-[#0071E3] mx-auto mb-2" />
               <p className="text-sm text-[#1D1D1F] font-normal">
                 B.Tech in Computer Science
               </p>
             </div>
-            <div className="bg-[#F5F5F7] p-4 rounded-2xl shadow-lg transform transition-transform hover:scale-105">
-              <Award className="w-6 h-6 text-[#0071E3] mx-auto mb-2" />
+            <div className="bg-[#F5F5F7] p-6 rounded-2xl shadow-lg transform transition-transform hover:scale-105">
+              <Award className="w-4 h-4 text-[#0071E3] mx-auto mb-2" />
               <p className="text-sm text-[#1D1D1F] font-normal">
                 AWS ML Nanodegree Graduate
               </p>
             </div>
-            <div className="bg-[#F5F5F7] p-4 rounded-2xl shadow-lg transform transition-transform hover:scale-105">
-              <Code2 className="w-6 h-6 text-[#0071E3] mx-auto mb-2" />
+            <div className="bg-[#F5F5F7] p-6 rounded-2xl shadow-lg transform transition-transform hover:scale-105">
+              <Code2 className="w-4 h-4 text-[#0071E3] mx-auto mb-2" />
               <p className="text-sm text-[#1D1D1F] font-normal">
                 Harvard Hackathon Winner
               </p>

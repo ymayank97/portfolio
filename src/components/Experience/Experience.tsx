@@ -58,7 +58,7 @@ export function Experience() {
           </h2>
           <div className="w-12 h-0.5 bg-[#0071E3] mx-auto"></div>
         </div>
-        <div className="relative mt-8 max-w-3xl mx-auto">
+        <div className="relative mt-8 max-w-4xl mx-auto">
           {experiences.map((experience, index) => (
             <ExperienceCard key={experience.company} {...experience} />
           ))}
