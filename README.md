@@ -19,16 +19,6 @@ Open the local URL printed by Vite, including the `/portfolio/` path.
 
 Portfolio content and links live in `src/data/portfolio.ts`, including work history, projects, skills, education, and awards.
 
-### Update the resume
-
-Replace `public/resume.pdf` with the new PDF to keep the existing resume URL.
-
-To use an externally hosted resume, change `profile.resume` in `src/data/portfolio.ts`:
-
-```ts
-resume: 'https://your-public-resume-url',
-```
-
 The header and footer use this same setting. Rebuild and publish after changing either the PDF or the URL.
 
 ### How the site works
