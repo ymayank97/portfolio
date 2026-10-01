@@ -1,15 +1,17 @@
 import { defineConfig } from 'vite';
-import react from '@vitejs/plugin-react';
+import { renderPage } from './src/render';
 
-// import dns from 'dns';
+let base = '/portfolio/';
 
-// localhost part
-// dns.setDefaultResultOrder('verbatim');
-// https://vitejs.dev/config/
 export default defineConfig({
-  base: "/portfolio",
-  plugins: [react()],
-  optimizeDeps: {
-    exclude: ['lucide-react'],
-  }
+  base,
+  build: { modulePreload: false },
+  plugins: [{
+    name: 'render-portfolio',
+    configResolved(config) { base = config.base; },
+    transformIndexHtml: {
+      order: 'pre',
+      handler(html) { return html.replace('<!--portfolio-->', renderPage(base)); },
+    },
+  }],
 });

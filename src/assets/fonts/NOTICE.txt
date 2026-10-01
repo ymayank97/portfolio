@@ -1,0 +1,5 @@
+Cabinet Grotesk
+Designed by Indian Type Foundry; distributed by Fontshare.
+Source: https://www.fontshare.com/fonts/cabinet-grotesk
+License: https://www.fontshare.com/licenses/itf-free-font-license
+The font is used locally to avoid a third-party runtime font request.
